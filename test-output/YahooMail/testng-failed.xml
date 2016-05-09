@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [YahooMail]">
+  <test name="CheckAndVerifyEmails">
+    <classes>
+      <class name="com.emailcheking.MailTest"/>
+    </classes>
+  </test> <!-- CheckAndVerifyEmails -->
+  <test name="CheckAndVerifyEmails(failed)">
+    <classes>
+      <class name="com.emailcheking.MailTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="checkMailTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.emailcheking.MailTest -->
+    </classes>
+  </test> <!-- CheckAndVerifyEmails(failed) -->
+</suite> <!-- Failed suite [YahooMail] -->

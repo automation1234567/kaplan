@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="46248" started-at="2016-05-09T12:55:17Z" finished-at="2016-05-09T12:56:03Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="46248" started-at="2016-05-09T12:55:17Z" finished-at="2016-05-09T12:56:03Z">
+      <class name="com.emailcheking.MailTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.emailcheking.MailTest@47089e5f]" name="setUp" is-config="true" duration-ms="10793" started-at="2016-05-09T08:55:17Z" finished-at="2016-05-09T08:55:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkMailTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.emailcheking.MailTest@47089e5f]" name="checkMailTest" duration-ms="32935" started-at="2016-05-09T08:55:28Z" data-provider="excelReader" finished-at="2016-05-09T08:56:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[adam.s73@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[goodpassword123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Deployment Platform]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[source control ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMailTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.emailcheking.MailTest@47089e5f]" name="tearDown" is-config="true" duration-ms="1802" started-at="2016-05-09T08:56:01Z" finished-at="2016-05-09T08:56:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.emailcheking.MailTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
